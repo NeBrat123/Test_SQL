@@ -1,0 +1,12 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+	<Compile Include="Database.cs" />
+	<Compile Include="BillsForm.cs" />
+	<Compile Include="BillDetailsForm.cs" />
+	<Compile Include="AccountManagerForm.cs" />
+	<Compile Include="RoleAccountForm.cs" />
+	<Compile Include="MainForm.cs" />
+	<Compile Include="TableBillsForm.cs" />
+	<Compile Include="BillLogForm.cs" />
+  </ItemGroup>
+</Project>

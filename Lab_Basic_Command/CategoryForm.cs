@@ -181,7 +181,13 @@ namespace Lab_Basic_Command
 
         private void tsmViewFood_Click(object sender, EventArgs e)
         {
-
+            if (txtID.Text != "")
+            {
+                int categoryID = int.Parse(txtID.Text);
+                FoodForm foodForm = new FoodForm();
+                foodForm.Show(this);
+                foodForm.LoadFoodList(Convert.ToInt32(txtID.Text));
+            }
         }
     }
 }

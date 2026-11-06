@@ -46,20 +46,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccountManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BillDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BillLogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BillsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="CategoryForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CategoryForm.Designer.cs">
       <DependentUpon>CategoryForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Database.cs" />
     <Compile Include="FoodForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FoodForm.Designer.cs">
       <DependentUpon>FoodForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoleAccountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableBillsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <EmbeddedResource Include="CategoryForm.resx">
       <DependentUpon>CategoryForm.cs</DependentUpon>
     </EmbeddedResource>
